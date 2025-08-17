@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="logo">MyPortfolio</div>
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="menu-toggle" id="menu-toggle">
+				<span></span><span></span><span></span>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section id="home" class="hero-section">
+			<h1>Hello, I'm <span class="highlight">Harshika sharma</span></h1>
+			<p>Web Developer | Designer </p>
+			<a href="#projects" class="btn">View My Work</a>
+		</section>
+		<section id="about" class="about-section">
+			<h2>About Me</h2>
+			<p>I'm a fresher and seeks to have knowledge in development . I keep on learning new technologies and try to implement them in my real - time projects . </p>
+		</section>
+		<section id="projects" class="projects-section">
+			<h2>Projects</h2>
+			<div class="projects-grid">
+				<div class="project-card">
+					<h3>Project One   ->  CALCULATOR</h3>
+					<p>This is my first project using HTML , CSS , and JAVASCRIPT.It performs basic arithemetic operations along with clear operation. </p>
+					<a href="https://github.com/Harshika-30/my-work" target="_blank">View Project</a>
+				</div>
+				<div class="project-card">
+					<h3>Project Two -> MY PERSONAL PORTFOLIO</h3>
+					<p>This is my personal portfolio website project. It is completly responsive and creative .</p>
+				</div>
+				<!-- Add more project cards as needed -->
+			</div>
+		</section>
+		<section id="contact" class="contact-section">
+			<h2>Contact</h2>
+			<form id="contact-form">
+				<input type="text" name="name" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email" required>
+				<textarea name="message" placeholder="Your Message" required></textarea>
+				<button type="submit" class="btn">Send Message</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2025 Your Name. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
